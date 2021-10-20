@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/*Text färg*/
+/*Text design*/
+/*Rubrik design*/
+/*Main bakgrund*/
+/*Designen på containers, BRA NAMN!*/
+/*Samma som sidans bakgrund så att kanterna inte blir hel vita*/
+body {
+  background-color: #11273a;
+  background-image: url(https://64.media.tumblr.com/26faa2eae62ced3703775bad035e34bc/tumblr_nnqv3uKMMh1r98n8go10_540.png);
+  background-position-x: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+/*Sidans bakgrund*/
+main {
+  background-color: #11273a;
+  background-image: url(https://64.media.tumblr.com/26faa2eae62ced3703775bad035e34bc/tumblr_nnqv3uKMMh1r98n8go10_540.png);
+  background-position-x: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  height: 450vh;
+  justify-content: center;
+}
+
+/*Titel containern*/
+.container {
+  font-size: 75px;
+  font-family: Helvetica;
+  color: grey;
+  height: 30vh;
+  top: 0;
+  background-image: url(Dishonored2title.png);
+  background-position-x: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+/*Första containern med bild*/
+.container-2 {
+  text-align: center;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  background-color: black;
+  height: 75vh;
+  margin-top: 30vh;
+  background-image: url(Armisstiltonsmanor.jpg);
+  background-position-x: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+/*Andra containern med bild*/
+.container-3 {
+  text-align: center;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  background-color: black;
+  height: 75vh;
+  margin-top: 50vh;
+  background-image: url(Clockworkmansion.jpg);
+  background-position-x: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+/*Text mellan första och andra containern samt mellan andra containern och footern*/
+p {
+  font-size: 30px;
+  font-family: Helvetica;
+  color: white;
+}
+
+/*Rubrik till texterna*/
+.heading {
+  font-size: 75px;
+  font-family: Helvetica;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  background-color: black;
+  font-size: 30px;
+  font-family: Helvetica;
+  color: white;
+  margin-top: 30vh;
+  height: 15vh;
+  text-align: center;
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+}
+/*# sourceMappingURL=styles.css.map */
